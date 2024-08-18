@@ -13,39 +13,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="w-3/4 mx-auto bg-lime-200 p-16">
-        <h1 class="text-5xl font-medium text-center mt-5">Let's get some<span class="text-purple-600 ">Moooooony</span>!!</h1>
+    <header class="w-3/4 mx-auto bg-lime-200 p-5 md:p-10 lg:p-16">
+        <h1 class="text-xl md:text-3xl lg:text-5xl font-medium text-center mt-5">Let's get some<span class="text-purple-600 ">Moooooony</span>!!</h1>
 
         <section class="mt-10 pb-20">
-            <div class="grid grid-cols-3 gap-10">
-                <div class="bg-stone-400 rounded-md p-10">
-                    <h1 class="text-2xl font-bold">Deposit</h1>
-                    <p class="text-3xl font-bold">$<span id="Dolar-field">00</span> </p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10">
+                <div class="bg-stone-400 rounded-md p-5 lg:p-10">
+                    <h1 class="text-xl md:text-2xl font-bold">Deposit</h1>
+                    <p class="text-xl md:text-3xl font-bold">$<span id="Dolar-field">00</span> </p>
                 </div>
-                <div class="bg-orange-200 rounded-md p-10">
-                    <h1 class="text-2xl font-bold">Withdrow</h1>
-                    <p class="text-3xl font-bold">$<span id="withdrow-output">00</span> </p>
+                <div class="bg-orange-200 rounded-md p-5 lg:p-10">
+                    <h1 class="text-xl md:text-2xl font-bold">Withdrow</h1>
+                    <p class="text-xl md:text-3xl font-bold">$<span id="withdrow-output">00</span> </p>
                 </div>
-                <div class="bg-green-300 rounded-md p-10">
-                    <h1 class="text-2xl font-bold">Balance</h1>
-                    <p class="text-3xl font-bold">$<span id="balance-input" >000</span></p>
+                <div class="bg-green-300 rounded-md p-5 lg:p-10">
+                    <h1 class="text-xl md:text-2xl font-bold">Balance</h1>
+                    <p class="text-xl md:text-3xl font-bold">$<span id="balance-input" >000</span></p>
                 </div>
                 
             </div>
 
-            <div class="grid grid-cols-2 gap-5 mt-16">
-                <div class="p-10 bg-purple-400 rounded-md space-y-2">
+            <div class="grid  grid-cols md:grid-cols-2 gap-5 mt-10 md:mt-16">
+                <div class="p-5  lg:p-10 bg-purple-400 rounded-md space-y-2">
                     <h1 class="text-2xl font-bold">Please Deposit</h1>
-                    <div class="text-center space-y-2 pl-5">
-                        <input id="diposit-input" class="block w-full p-2" type="text" placeholder="$-amount you want to Deposit">
-                        <button id="dipo-btn"  class="px-5 py-3 block bg-orange-700 rounded-md">Deposit</button>
+                    <div class="  text-center space-y-2 lg:pl-5">
+                        <input id="diposit-input" class="block w-full p-1 lg:p-2 text-sm" type="text" placeholder="$-amount you want to Deposit">
+                        <button id="dipo-btn"  class="px-2 lg:px-5 py-2 lg:py-3 block bg-orange-700 rounded-md">Deposit</button>
                     </div>
                 </div>
-                <div class="p-10 bg-cyan-400 rounded-md space-y-2">
+                <div class="p-5 lg:p-10 bg-cyan-400 rounded-md space-y-2">
                     <h1 class="text-2xl font-bold">Cashout</h1>
-                    <div class="text-center space-y-2 pl-5">
-                        <input id="withdrow-input" class="block w-full p-2" type="text" placeholder="$-amount you want to Deposit">
-                        <button id="withdrow-btn" class="px-5 py-3 block bg-orange-700 rounded-md">cashout</button>
+                    <div class="text-center space-y-2 lg:pl-5">
+                        <input id="withdrow-input" class="block w-full p-1 lg:p-2 text-sm" type="text" placeholder="$-amount you want to withdrow">
+                        <button id="withdrow-btn" class="px-2 lg:px-5 py-2 lg:py-3 block bg-orange-700 rounded-md">cashout</button>
                     </div>
                 </div>
             </div>
